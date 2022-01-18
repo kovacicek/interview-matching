@@ -4,10 +4,11 @@
 Suppose there are n apartments and n applicants. Each aplicant ranks the apartment in order of
 preference, and the apartment has a ranking for all the applicants in the same way. A match is any matching in a complete bipartite graph between the apartment and the applicant. It is called near-perfect if an applicant `i` and an apartment `j` do not exist such that the applicant prefers `j` to his current apartment, and the apartment prefers `i` to its current tenant. The goal is to compute one near-perfect set of matches from the `2n` stated preferences. 
 
+NOTE: Design an algorithm in a way that an applicant proposes and apartment accepts or rejects.
+
 
 ## Example 1
 
-NOTE: Design an algorithm in a way that an applicant proposes and apartment accepts or rejects.
 
 Let's assign numbers from 1 to n to our applicants and apartments. Inputs for each applicant or apartment are given in a line, where first number denotes their identifier and the remaining integers are their preferences. First matrix, denotes applicant preferences and second apartment preferences.
 
