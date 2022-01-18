@@ -42,18 +42,6 @@ Our task is to find a set of matchings in which no two matches are found . Or in
 
 ## Example 2
 
-#### Input:
-
-Apartment preferences:
-```
-1 3 4 2 1 6 7 5
-2 6 4 2 3 5 1 7
-3 6 3 5 7 2 4 1
-4 1 6 3 2 4 7 5
-5 1 6 5 3 4 7 2
-6 1 7 3 4 5 6 2
-7 5 6 2 4 3 7 1
-```
 
 Applicant preferences:
 ```
@@ -66,8 +54,18 @@ Applicant preferences:
 7 1 7 4 2 6 5 3
 ```
 
-#### Output:
+Apartment preferences:
+```
+1 3 4 2 1 6 7 5
+2 6 4 2 3 5 1 7
+3 6 3 5 7 2 4 1
+4 1 6 3 2 4 7 5
+5 1 6 5 3 4 7 2
+6 1 7 3 4 5 6 2
+7 5 6 2 4 3 7 1
+```
 
+Near-perfect matching:
 ```
 1 4
 2 3
@@ -82,10 +80,7 @@ Applicant preferences:
 ## Task
 
 
-NOTE: Design an algorithm in a way that an applicant proposes and apartment accepts or rejects.
-
-
-0. Design an algorithm which finds a set of near-perfect matches.
+0. Design an algorithm which finds a set of near-perfect matches (NOTE: Design an algorithm in a way that an applicant proposes and apartment accepts or rejects.).
 
 1. Design a parametrized test for example 1., 2. and/or additional cases.
 
